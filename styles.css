@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+strong{
+    color: #22d4fd;
+}
+
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.content .text{
+    display: flex;
+    width: 37.0625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.content .image{
+    width: 30.5rem; 
+    height: 34.375rem; 
+    position: relative"
+}
+.content .border {
+    width: 30rem; 
+    height: 32.875rem; 
+    left: 43.3rem;
+    top: 5rem; 
+    position: absolute; 
+    border-radius: 1rem; 
+    border: 3px #22D4FD solid;
+}
+.content .image img {
+    width: 29.232rem; 
+    height: 33.25rem; 
+    position: absolute; 
+    border-radius: 1rem;
+    background: url(felipe-soares-calderaro.jpg), lightgray -39.262px -50.143px / 212.432% 124.461% no-repeat;
+    background-size: cover;
+    
+}
+
+.content .text .anchor {
+    display: flex;
+    width: 37.0625rem;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+a{
+    width: 17.5rem;
+    height: 4.9375rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    border: 0px solid #22D4FD;
+    background: #22D4FD;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.25rem;
+}
